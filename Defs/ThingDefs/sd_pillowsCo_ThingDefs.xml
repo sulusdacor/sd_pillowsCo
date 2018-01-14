@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--================ beanbag ================-->
+  
+  <ThingDef ParentName="FurnitureBase">
+		<defName>sd_pillowsCo_beanbag</defName>
+		<label>beanbag</label>
+		<uiIconPath>sd_pillowsCo/menu_icons/sd_pillowsCo_beanbag_menuicon</uiIconPath>
+		<graphicData>
+		  <shaderType>CutoutComplex</shaderType>
+		  <texPath>sd_pillowsCo/beanbag/sd_pillowsCo_beanbag</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<description>A place to just sit down and spill the beans.</description>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToBuild>7500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>18</Mass>
+			<Beauty>1</Beauty>
+			<Comfort>0.8</Comfort>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+        </stuffCategories>
+			<costStuffCount>100</costStuffCount>
+		<pathCost>30</pathCost>
+		<fillPercent>0.40</fillPercent>
+		<designationCategory>Furniture</designationCategory>
+		<researchPrerequisites>
+			<li>sd_pillowsCo_pillows_and_beanbags_research</li>
+		</researchPrerequisites>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<castEdgeShadows>true</castEdgeShadows>
+	</ThingDef>
+	
+	<!--================ pillow ================-->
+	
+	<ThingDef ParentName="FurnitureBase">
+		<defName>sd_pillowsCo_pillow</defName>
+		<label>pillow</label>
+		<uiIconPath>sd_pillowsCo/menu_icons/sd_pillowsCo_pillow_menuicon</uiIconPath>
+		<graphicData>
+		  <shaderType>CutoutComplex</shaderType>
+		  <texPath>sd_pillowsCo/pillow/sd_pillowsCo_pillow</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<description>A pillow large enough to sit on.</description>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToBuild>7500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>10</Mass>
+			<Beauty>1</Beauty>
+			<Comfort>0.8</Comfort>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+        </stuffCategories>
+			<costStuffCount>100</costStuffCount>
+		<pathCost>20</pathCost>
+		<fillPercent>0.10</fillPercent>
+		<designationCategory>Furniture</designationCategory>
+		<researchPrerequisites><li>sd_pillowsCo_pillows_and_beanbags_research</li></researchPrerequisites>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<castEdgeShadows>true</castEdgeShadows>
+	</ThingDef>
+  
+</Defs>

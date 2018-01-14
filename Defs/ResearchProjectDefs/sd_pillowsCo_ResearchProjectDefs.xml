@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>sd_pillowsCo_pillows_and_beanbags_research</defName>
+		<label>Pillows and Beanbags</label>
+		<description>New means to sit for your colonists and decorate the base.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+	</ResearchProjectDef>
+
+</Defs>

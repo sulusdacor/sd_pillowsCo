@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  
+  <!-- Basic domestic furniture -->
+
+  <sd_pillowsCo_beanbag.label>Sitzsack</sd_pillowsCo_beanbag.label>
+  <sd_pillowsCo_beanbag.description>Eine einfache Oberfläche, auf der man sitzen kann.</sd_pillowsCo_beanbag.description>
+
+  <sd_pillowsCo_pillow.label>Kissen</sd_pillowsCo_pillow.label>
+  <sd_pillowsCo_pillow.description>Ein Kissen, gross genug um darauf zu sitzen.</sd_pillowsCo_pillow.description>
+
+</LanguageData>

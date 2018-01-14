@@ -1,0 +1,39 @@
+personal changelog for mod "of pillows and beanbags"
+
+- 20/09/2016
+
+	- added ludeon forum link to about data, updateted steamworkshop description wiht this link too
+	- made furniture tradeable by furniture tag (exotic goods trader)
+
+- 14/10/2016
+
+	- removed abstract def highqualityfurniture, since it was not used. added marker in xml file for abstract bases
+
+- 21/12/2016
+
+	- updated for a16, added mass
+	- removed medieval research tag
+	- merge pillows into one object texture switch with rotate
+	- removed shadow data, added edge shadows
+	- changed stuff coloring, by adding cutout complex shader and full red material layers
+	- changed texture folder structure
+	- added menu icon for pillow texture switch
+	- updated about file
+
+- 06/01/2017
+
+	- fixed the worktobuild xml thing
+
+- 31/05/2017
+
+	- update to a17
+	- changed beauty from 3 to 1, to be same as the vanilla armchair
+
+- 28/12/2017
+
+	- update to b18
+	- <ResearchProjectsDefs>,<Buildings> to <Defs>
+	- adjusted case sensitive xml tags:
+		designationCategory
+		description
+		size
