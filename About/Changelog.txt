@@ -37,3 +37,7 @@ personal changelog for mod "of pillows and beanbags"
 		designationCategory
 		description
 		size
+
+- 15/01/2018
+
+	- added modsync
