@@ -41,3 +41,9 @@ personal changelog for mod "of pillows and beanbags"
 - 15/01/2018
 
 	- added modsync
+
+- 25/10/2018
+
+	- rimworld 1.0 update
+	- xml stuff
+	- textures endings for multichanged

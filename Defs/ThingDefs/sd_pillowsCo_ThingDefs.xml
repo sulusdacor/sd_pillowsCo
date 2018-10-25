@@ -41,6 +41,7 @@
 			<isSittable>true</isSittable>
 		</building>
 		<castEdgeShadows>true</castEdgeShadows>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
 	
 	<!--================ pillow ================-->
@@ -81,6 +82,7 @@
 			<isSittable>true</isSittable>
 		</building>
 		<castEdgeShadows>true</castEdgeShadows>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
   
 </Defs>
